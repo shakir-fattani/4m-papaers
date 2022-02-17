@@ -1,0 +1,27 @@
+{
+  "name": "4m-papers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakir-fattani/4m-papaers.git"
+  },
+  "keywords": [
+    "studies"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakir-fattani/4m-papaers/issues"
+  },
+  "homepage": "https://github.com/shakir-fattani/4m-papaers#readme",
+  "dependencies": {
+    "basic-server-starter": "^1.1.0",
+    "js-utils-deploy": "^1.3.4",
+    "uuid": "^8.3.2"
+  }
+}
