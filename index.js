@@ -6,9 +6,9 @@ const { version } = require('./package.json');
 BasicServerStarter.setConfigVar("APP_NAME", "4m Paper's Admin App");
 BasicServerStarter.setConfigVar("API_VERSION", "1.0");
 BasicServerStarter.setConfigVar("VERSION", version);
-BasicServerStarter.setConfigVar("SERVER_PORT", 35005);
+BasicServerStarter.setConfigVar("SERVER_PORT", 80);
 BasicServerStarter.InitServer(__dirname);
 
 const WebRouter = BasicServerStarter.getWebController();
 WebRouter.use('/', require('./controllers/index-controller'));
-BasicServerStarter.startServer("0.0.0.0");
+BasicServerStarter.startServer("localhost");
