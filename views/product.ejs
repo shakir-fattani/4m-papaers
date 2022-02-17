@@ -1,0 +1,55 @@
+<%- include("partials/header.ejs") %>
+<div class="wrapper">
+    <div id="content"><%- include("partials/menu.ejs", {hideHeader: false}) %>
+        <div class="container-fluid home">
+            <div class="row">
+                <h1>Hello Product</h1>
+                <table class="table">
+                    <tr>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>weight</th>
+                        <th>color</th>
+                        <th>brand</th>
+                        <th>category</th>
+                        <th>price</th>
+                        <th>max_discount</th>
+                        <th>date_added</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>a4</td>
+                        <td>70gm</td>
+                        <td>white</td>
+                        <td>doubleA</td>
+                        <td>paper</td>
+                        <td>3400</td>
+                        <td>100</td>
+                        <td>1-4-2003</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+<%- include("partials/footer.ejs") %>
+
+<!-- <script>
+    const config = {
+        type: 'line',
+        data: data,
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Chart.js Line Chart'
+                }
+            }
+        },
+    };
+</script> -->

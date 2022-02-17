@@ -35,7 +35,7 @@ NonSecureRouter.filter((req, res, next) => {
     res.locals.isBlockPattern = false;
     res.locals.pageName = "home";
     res.locals.blocks = [];
-    res.locals.pageTitle = "4m papers Admin Panel";
+    res.locals.pageTitle = "4m papers";
     res.locals.query = req.query;
     res.locals.body = req.body || {};
     next();

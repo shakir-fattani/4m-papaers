@@ -2,8 +2,23 @@
 <div class="wrapper">
     <div id="content"><%- include("partials/menu.ejs", {hideHeader: false}) %>
         <div class="container-fluid home">
+            <h1>add-category</h1>
             <div class="row">
-                <h1>Hello 4m</h1>
+                
+               
+                <form class="widget-form" method="POST">
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input name="name" type="text" placeholder="Name" class="form-control" required />
+                        </div>
+                    </div>
+                    
+                    <div class="button-btn-block">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Add Category</button>
+                    </div>
+                </form>
+
+
             </div>
 
         </div>
